@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+.env.local
+*.key
+*.token
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Database & runtime files
+*.db
+*.sqlite
+*.sqlite3
+data/
+logs/
+*.log
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and temporary backups
+build/
+dist/
+*.spec
